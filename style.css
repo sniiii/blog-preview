@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+* + * {
+  margin-top: 1em;
+}
+
+@media (max-width: 600px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(47, 88%, 63%);
+    margin: 0;
+  }
+
+  article {
+    background: white;
+    width: 90%;
+    border-radius: 10%;
+    border-style: solid;
+    box-shadow: 0.3em 0.3em;
+  }
+
+  .illustration-img {
+    width: 90%;
+    padding-left: 1em;
+    border-radius: 10%;
+    margin-top: 1em;
+  }
+
+  .all_text {
+    padding-left: 1em;
+    font-family: "Figtree", sans-serif;
+  }
+
+  .learn {
+    background: hsl(47, 88%, 63%);
+    width: 25%;
+    padding-left: 0.5em;
+    border-radius: 10%;
+    font-weight: 700;
+  }
+
+  .headtext {
+    color: grey;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding-left: 1em;
+  }
+
+  .author {
+    padding-left: 1em;
+    font-weight: 600;
+  }
+
+  .profpic {
+    width: 20%;
+  }
+}
+
+@media (min-width: 750px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(47, 88%, 63%);
+    margin: 0;
+    padding: 5em;
+  }
+
+  article {
+    background: white;
+    text-align: center;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 0.1em;
+    min-height: 700px;
+    max-width: 500px;
+    min-width: 500px;
+    width: 35%;
+    box-shadow: 1em 1em;
+    font-family: "Figtree", sans-serif;
+  }
+
+  .illustration-img {
+    width: 80%;
+    border-radius: 10%;
+    margin-top: 1.5em;
+  }
+
+  .all_text {
+    text-align: left;
+    margin-left: 3.4rem;
+  }
+
+  .learn {
+    background: hsl(47, 88%, 63%);
+    width: 23%;
+    padding-left: 1rem;
+    font-weight: bold;
+    padding: 0.7em 1em;
+    border-radius: 10%;
+  }
+
+  .foundations {
+    color: hsl(47, 88%, 63%);
+    font-size: 1.8em;
+    font-weight: 1000;
+  }
+
+  .headtext {
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .footer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 40%;
+    margin-left: 3.4rem;
+    margin-top: 5rem;
+  }
+
+  .author {
+    font-weight: bold;
+    padding-left: 1rem;
+  }
+}
